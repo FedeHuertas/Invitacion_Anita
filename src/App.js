@@ -22,7 +22,7 @@ function App() {
           <h1 className='name'>Anita</h1>
           <h3 className='Mis15'>Mis 15</h3>
         </div>
-          <h3>Te invito a compartir mis 15 años...</h3>
+          <h3>Te invito a celebrar mis 15 años...</h3>
         <CuentaRegresiva />
         <Ubicación 
           nombre={'"Quinta Las Carretas"'}
