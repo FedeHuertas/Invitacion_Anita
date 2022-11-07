@@ -1,8 +1,8 @@
 .container {
     background-image: url('../assets/rectanguloVerticalRecurso\ 2@4x.png');
     background-size: cover;
-    width: 300px;
-    height: 340px;
+    width: 370px;
+    height: 435px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -14,8 +14,8 @@
 
 .titulo {
     position: relative;
-    top: -60px;
-    left: -57px;
+    top: -81px;
+    left: -71px;
 }
 
 h6 {
@@ -24,16 +24,17 @@ h6 {
 
 .contenido {
     position: relative;
-    max-width: 150px ;
-    top: -40px;
-    left: 10px
+    max-width: 230px;
+    top: -50px;
+    left: 10px;
+    font-size: larger;
 }
 
-.icon{
-    max-width: 15px;
+.icon {
+    max-width: 24px;
     position: relative;
-    left: -50px;
-    top: 21px
+    left: -66px;
+    top: 30px;
 }
 
 .textoComoLlegar {

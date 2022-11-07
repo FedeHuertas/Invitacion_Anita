@@ -7,7 +7,16 @@ import Carousel from 'nuka-carousel';
 function App() {
   return (
     <div className="App">
+      <span className='playText' >Dame Play...</span>
+      <span className='flechita'>↪</span>
       <div className='container'>
+        <audio
+        className='audio'
+        autoPlay
+        controls
+        >
+          <source src="https://res.cloudinary.com/dhjbyazal/video/upload/v1667783604/Anita/y2mate.com_-_Nicki_Nicole_Baby_Official_Video_64kbps_eeu2kg.mp3" type='audio/mp3' />
+        </audio>
         <div className='nameContainer'>
           <h1 className='name'>Anita</h1>
           <h3 className='Mis15'>Mis 15</h3>
@@ -42,14 +51,6 @@ function App() {
         <a href='https://wa.link/65ahvg'>
           <Boton texto={'Confirmar'} />
         </a>
-        <audio
-        className='audio'
-        autoPlay
-        controls
-        loop
-        >
-          <source src="https://res.cloudinary.com/dhjbyazal/video/upload/v1667783604/Anita/y2mate.com_-_Nicki_Nicole_Baby_Official_Video_64kbps_eeu2kg.mp3" type='audio/mp3' />
-        </audio>
       </div>
     </div>
   );

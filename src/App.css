@@ -9,6 +9,7 @@
   background-image: url('./fondo.png');
   background-size: cover;
   padding-bottom: 200px;
+  font-size: larger;
 }
 
 .App-logo {
@@ -52,22 +53,36 @@
   padding: 2%;
   background-color: rgba(245, 245, 245, 0.9);
 } */
+.flechita {
+  position: relative;
+  top: 81px;
+  left: -204px;
+  rotate: 69deg;
+}
+
+.playText {
+  position: relative;
+  top: 49px;
+  left: -115px;
+}
 
 .imagenes {
-  height: 150px;
-  width: 150px;
+  height: 200px;
+  width: 200px;
 }
 
 .name {
   color: white;
-  font-size: 85px;
+  font-size: 108px;
   text-shadow: 3px 3px rgb(139, 118, 0);
+  position: relative;
+  top: 30px;
 }
 
 .nameContainer {
   background-image: url('./assets/RomboRecurso\ 3@4x.png');
-  height: 250px;
-  width: 250px;
+  height: 350px;
+  width: 350px;
   background-size: cover;
   display: flex;
   flex-direction: column;
@@ -79,7 +94,7 @@ h1 {
 }
 
 .Mis15 { 
-  font-size: 30px;
+  font-size: 35px;
   color: rgb(139, 118, 0);
   position: relative;
   top: -95px;
@@ -97,8 +112,8 @@ h1 {
   position: relative;
   top: 10px;
   left: -10px;
-  width: 280px;
-  height: 280px;
+  width: 330px;
+  height: 335px;
   padding-top: 10px;
 }
 

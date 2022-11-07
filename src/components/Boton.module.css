@@ -1,12 +1,13 @@
 .buttons {
-    width: 70px;
-    height: 30px;
+    width: 100px;
+    height: 40px;
     background-color: whitesmoke;
     border: 2px solid rgb(139, 118, 0);
     color: rgb(139, 118, 0);
     border-radius: 5px;
     box-shadow: 3px 3px rgb(139, 118, 0);
     font-family: Dancing Script;
+    font-size: large;
 }
 
 .buttons:hover {
