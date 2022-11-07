@@ -47,7 +47,9 @@ const CuentaRegresiva = () => {
                 )}/><br/>
             </div>
             <div className={s.btnContainer} >
-              <Boton texto="Agendar" />
+                <a href='https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=N3Q1ajZ1MW0xaTJzdXZpODExb2dyNWZtZzcgZmVkZXJpY29odWVydGFzOTVAbQ&tmsrc=federicohuertas95%40gmail.com'>
+                    <Boton texto="Agendar" />
+                </a>
             </div>
         </div>
     )
