@@ -1,0 +1,21 @@
+.container{
+    background-image: url('../assets/hexaRecurso\ 1@4x.png');
+    background-size: cover;
+    height: 280px;
+    width: 280px;
+}
+
+.texto {
+    display: flex;
+    font-size: 35px;
+    max-width: 100px;
+    position: relative;
+    top: 60px;
+    left: 60px;
+}
+
+.icons {
+    position: relative;
+    max-width: 50px;
+    top: 66px;
+}

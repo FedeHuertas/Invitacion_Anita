@@ -3,6 +3,7 @@ import Boton from './components/Boton';
 import CuentaRegresiva from './components/CuentaRegresiva';
 import Ubicación from './components/Ubicación';
 import Carousel from 'nuka-carousel';
+import CodigoVestimenta from './components/CodigoVestimenta';
 
 function App() {
   return (
@@ -47,6 +48,7 @@ function App() {
           <img className='imagenes' src='https://res.cloudinary.com/dhjbyazal/image/upload/v1667781030/Anita/Imagen_de_WhatsApp_2022-11-03_a_las_11.59.53_cuadrada_gfhgmq.jpg' />
           </Carousel>
         </div>
+        < CodigoVestimenta vestimenta='Estrictamente Formal' />
         <h3>Confirmá tu asistencia:</h3>
         <a href='https://wa.link/65ahvg'>
           <Boton texto={'Confirmar'} />
