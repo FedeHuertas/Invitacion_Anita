@@ -5,7 +5,7 @@
   font-family: Dancing Script;
   color: rgb(75, 75, 75);
   padding-bottom: 30px;
-  background-image: url('./fondo.png');
+  background-image: url('./assets/fondo.png');
   background-size: cover;
   padding-bottom: 200px;
   font-size: larger;
@@ -46,12 +46,6 @@
   }
 }
 
-
-/* .container {
-  margin: 2%;
-  padding: 2%;
-  background-color: rgba(245, 245, 245, 0.9);
-} */
 .flechita {
   position: relative;
   top: 81px;
