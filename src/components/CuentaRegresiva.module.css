@@ -1,0 +1,37 @@
+.container {
+    background-image: url('../assets/rectánguloRecurso\ 4@4x.png');
+    background-size: cover;
+    height: 260px;
+    width: 280px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.titulo {
+    position: relative;
+    top: -20px;
+    left: -104px;
+}
+
+.contenido {
+    position: relative;
+    top: -45px;
+}
+
+.btnContainer {
+    position: relative;
+    top: -38px;
+    left: 88px;
+}
+
+td {
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+h4 {
+    margin: 0px
+}

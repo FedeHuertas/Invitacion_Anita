@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing%20Script');
+
+.App {
+  text-align: center;
+  font-family: Dancing Script;
+  color: rgb(75, 75, 75);
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-image: url('./fondo.png');
+  background-size: cover;
+  padding-bottom: 200px;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+/* .container {
+  margin: 2%;
+  padding: 2%;
+  background-color: rgba(245, 245, 245, 0.9);
+} */
+
+.imagenes {
+  height: 150px;
+  width: 150px;
+}
+
+.name {
+  color: white;
+  font-size: 85px;
+  text-shadow: 3px 3px rgb(139, 118, 0);
+}
+
+.nameContainer {
+  background-image: url('./assets/RomboRecurso\ 3@4x.png');
+  height: 250px;
+  width: 250px;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
+
+h1 {
+  color: rgb(139, 118, 0);
+}
+
+.Mis15 { 
+  font-size: 30px;
+  color: rgb(139, 118, 0);
+  position: relative;
+  top: -95px;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.carouselContainer {
+  background-image: url('./assets/cuadradoRecurso\ 3@4x.png');
+  background-size: cover;
+  position: relative;
+  top: 10px;
+  left: -10px;
+  width: 280px;
+  height: 280px;
+  padding-top: 10px;
+}
+
+.carousel {
+  width: 280px;
+  height: 280px;
+  padding-top: 65px;
+  padding-left: 5px;
+}
+
+.audio {
+  margin-top: 50px;
+}
